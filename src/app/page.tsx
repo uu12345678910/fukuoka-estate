@@ -3,6 +3,8 @@ import Link from "next/link";
 import { client } from "@/sanity/lib/client";
 import { propertyQuery, caseStudyQuery, postQuery, highSchoolQuery } from "@/sanity/lib/queries";
 import FukuokaMap from "@/components/FukuokaMap";
+import LineFAB from '@/components/LineFAB';
+import LineCTA from '@/components/LineCTA';
 
 // Hero Section Component
 function Hero() {
