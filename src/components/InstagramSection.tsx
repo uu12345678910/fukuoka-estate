@@ -4,10 +4,10 @@ import { InstagramEmbed } from 'react-social-media-embed';
 
 export default function InstagramSection() {
     return (
-        <section className="py-24 bg-white container mx-auto px-6 lg:px-12">
+        <section className="py-24 bg-navy-900 text-white container mx-auto px-6 lg:px-12">
             <div className="text-center mb-16">
-                <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-4">Instagram</h2>
-                <p className="text-gray-600 max-w-2xl mx-auto text-lg">
+                <h2 className="text-3xl md:text-4xl font-bold mb-4">Instagram</h2>
+                <p className="text-gray-300 max-w-2xl mx-auto text-lg">
                     福岡のリアルな暮らしや、おすすめ物件のルームツアー動画をお届けしています。
                 </p>
             </div>
