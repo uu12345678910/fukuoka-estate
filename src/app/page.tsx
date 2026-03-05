@@ -5,8 +5,11 @@ import { propertyQuery, caseStudyQuery, postQuery, highSchoolQuery } from "@/san
 import FukuokaMap from "@/components/FukuokaMap";
 import LineFAB from '@/components/LineFAB';
 import LineCTA from '@/components/LineCTA';
+import InstagramSection from '@/components/InstagramSection';
 
 // Hero Section Component
+export const revalidate = 60; // Auto-revalidate cache every 60 seconds
+
 function Hero() {
   return (
     <section className="relative w-full h-[600px] flex items-center justify-center bg-gray-50 overflow-hidden">
@@ -276,6 +279,9 @@ export default async function Home() {
           </div>
         </div>
       </section>
+
+      {/* Instagram Section */}
+      <InstagramSection />
 
       {/* Case Studies Section */}
       <section className="py-24 bg-navy-900 text-white">
