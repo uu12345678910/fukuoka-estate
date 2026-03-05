@@ -13,11 +13,15 @@ export default function InstagramSection() {
             </div>
 
             <div className="flex flex-col md:flex-row justify-center items-center gap-6">
-                <div className="w-full max-w-[224px] hover:scale-[1.02] transition-transform duration-300">
-                    <InstagramEmbed url="https://www.instagram.com/reel/DU5kCuGE_3Q/?igsh=MWxwZ2Zwb2NxMm5vbQ==" width="100%" />
+                <div className="w-48 h-48 md:w-56 md:h-56 overflow-hidden rounded-2xl hover:scale-[1.02] transition-transform duration-300 shadow-md">
+                    <div className="scale-[0.7] md:scale-[0.8] origin-top-left w-[142%] md:w-[125%] h-[142%] md:h-[125%] pointer-events-none">
+                        <InstagramEmbed url="https://www.instagram.com/reel/DU5kCuGE_3Q/?igsh=MWxwZ2Zwb2NxMm5vbQ==" width="100%" />
+                    </div>
                 </div>
-                <div className="w-full max-w-[224px] hover:scale-[1.02] transition-transform duration-300">
-                    <InstagramEmbed url="https://www.instagram.com/reel/DU8Dkq0Ey2S/?igsh=MWpvNHhvd2V2bDN3Yw==" width="100%" />
+                <div className="w-48 h-48 md:w-56 md:h-56 overflow-hidden rounded-2xl hover:scale-[1.02] transition-transform duration-300 shadow-md">
+                    <div className="scale-[0.7] md:scale-[0.8] origin-top-left w-[142%] md:w-[125%] h-[142%] md:h-[125%] pointer-events-none">
+                        <InstagramEmbed url="https://www.instagram.com/reel/DU8Dkq0Ey2S/?igsh=MWpvNHhvd2V2bDN3Yw==" width="100%" />
+                    </div>
                 </div>
             </div>
 
