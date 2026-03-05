@@ -14,10 +14,10 @@ export default function InstagramSection() {
 
             <div className="flex flex-col md:flex-row justify-center items-center gap-8">
                 <div className="w-full max-w-[328px]">
-                    <InstagramEmbed url="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDg1NjQ0MDQxMTg2NzM5?igsh=MTd2dWdqZTd0OGsyNg==" width="100%" />
+                    <InstagramEmbed url="https://www.instagram.com/reel/DU5kCuGE_3Q/?igsh=MWxwZ2Zwb2NxMm5vbQ==" width="100%" />
                 </div>
                 <div className="w-full max-w-[328px]">
-                    <InstagramEmbed url="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MTAzNzI3MTAxNjY4MjM1?igsh=NHlsZmZybTRobzJw" width="100%" />
+                    <InstagramEmbed url="https://www.instagram.com/reel/DU8Dkq0Ey2S/?igsh=MWpvNHhvd2V2bDN3Yw==" width="100%" />
                 </div>
             </div>
 

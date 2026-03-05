@@ -207,6 +207,9 @@ export default async function Home() {
         </div>
       </section>
 
+      {/* Instagram Section */}
+      <InstagramSection />
+
       {/* Properties Section */}
       <section className="py-20 bg-gray-50 container mx-auto px-6 lg:px-12">
         <div className="text-center mb-16">
@@ -279,9 +282,6 @@ export default async function Home() {
           </div>
         </div>
       </section>
-
-      {/* Instagram Section */}
-      <InstagramSection />
 
       {/* Case Studies Section */}
       <section className="py-24 bg-navy-900 text-white">
