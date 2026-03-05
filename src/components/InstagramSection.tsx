@@ -12,11 +12,11 @@ export default function InstagramSection() {
                 </p>
             </div>
 
-            <div className="flex flex-col md:flex-row justify-center items-center gap-8">
-                <div className="w-full max-w-[328px]">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-6">
+                <div className="w-full max-w-[280px] hover:scale-[1.02] transition-transform duration-300">
                     <InstagramEmbed url="https://www.instagram.com/reel/DU5kCuGE_3Q/?igsh=MWxwZ2Zwb2NxMm5vbQ==" width="100%" />
                 </div>
-                <div className="w-full max-w-[328px]">
+                <div className="w-full max-w-[280px] hover:scale-[1.02] transition-transform duration-300">
                     <InstagramEmbed url="https://www.instagram.com/reel/DU8Dkq0Ey2S/?igsh=MWpvNHhvd2V2bDN3Yw==" width="100%" />
                 </div>
             </div>
